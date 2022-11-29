@@ -1,4 +1,3 @@
-#import the required libraries
 
 from tkinter import *
 import random
@@ -8,9 +7,6 @@ from turtle import window_height, window_width
 window = Tk()
 window.title("Snake Game Python")       #title
 window.resizable(0,0)
-
-Label(window, text='SUBSCRIBE', font='arial 20 bold').pack(side=BOTTOM) #footer
-
 score = 0
 direction = 'down'
 
